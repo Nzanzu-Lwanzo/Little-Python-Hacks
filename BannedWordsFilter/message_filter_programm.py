@@ -4,7 +4,7 @@ import string as st
 
 # Les mots à filtrer, qu'ils soient dans un fichier texte ou une base de données,
 # doivent passer par une variable words_to_filter_list qui sera une liste.
-# L'idéal c'est que ces mots banis soient stockés dans une Base de Données
+# L'idéal c'est que ces mots banis soient stockés dans un fichier .json ou .txt
 words_to_filter_list = [
 	'putain',',putain,',
 	'merde',',merde',

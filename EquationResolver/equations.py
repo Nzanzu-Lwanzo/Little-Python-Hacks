@@ -2,7 +2,7 @@
 
 import math
 
-class eqFirstDeg:
+class EqFirstDeg:
 	
 	"""Classe qui résout les équations du premier degré"""
 
@@ -64,7 +64,7 @@ class eqFirstDeg:
 
 
 
-class eqSecondDeg:
+class EqSecondDeg:
 
 	"""Classe représentant et résolvant une équation du second degré"""
 
