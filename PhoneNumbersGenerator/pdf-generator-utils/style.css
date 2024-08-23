@@ -1,0 +1,31 @@
+* {
+	font-family: Poppins;
+	font-size: .9rem;
+}
+
+table {
+	border-collapse: collapse;
+	width: 70%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+table,td,th {
+	border-bottom: 1px solid black;
+}
+
+td,th {
+	padding: 5px;
+	text-align: left;
+}
+
+th {
+	background: black;
+	color: orange;
+}
+
+caption {
+	font-size: 2rem;
+	color: black;
+	margin: 10px auto;
+}

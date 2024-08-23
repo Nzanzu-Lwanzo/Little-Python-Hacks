@@ -1,0 +1,20 @@
+
+<table>
+	<caption>Generated Numbers</caption>
+	<tr>
+		<th>N</th>
+		<th>Phone number</th>
+		<th>Exact Day</th>
+		<th>Exact time</th>
+		
+	</tr>
+
+	{% for number in numbers %}
+	<tr>
+		<td> {{ number.0 }} </td> 
+		<td> {{ number.1 }} </td>
+		<td> {{ number.2 }} </td>
+		<td> {{ number.3 }} </td>
+	</tr>
+	{% endfor %}
+</table> 
