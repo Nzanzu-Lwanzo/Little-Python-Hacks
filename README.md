@@ -23,11 +23,12 @@ C'est un programme qui filtre un texte pour cacher des parties indésirées. Sup
 
 L'algorithme réside au sein du fichier [message_filter_programm.py](BannedWordsFilter/message_filter_programm.py). 
 
-Au tout début du fichier, vous avez une liste de mots à banir. Ce sont les mots indésirés.  Ajoutez plus de mots à cette liste, si vous voulez. Essayez ensuite d'appeler la fonction *filter_user_input* avec un texte en paramètre dans lequel vous incluez certains des mots présents dans la liste. Vous remarquerez que ces mots-là seront filtrés.
+Au tout début du fichier, vous avez une liste de mots à banir. Ce sont les mots indésirés.  Ajoutez plus de mots à cette liste, si vous voulez. Essayez ensuite d'appeler la fonction *filter_user_input* avec un texte comme argument dans lequel vous incluez certains des mots présents dans la liste. Vous remarquerez que ces mots-là seront filtrés.
 
 Pour améliorer le programme, voici quelques pistes :
 
 _ Stoker les mots à banir dans un fichier .json ou dans un fichier .txt
+
 _ Se servir des expressions régulières pour une recherche intégrale et performante (si vous avez un niveau avancé en Python)
 
 ### BIRTHDAY APP - INTERMEDIAIRE
