@@ -6,7 +6,7 @@ class EqFirstDeg:
 	
 	"""Classe qui résout les équations du premier degré"""
 
-	def __init__(self,a=2,b=1,c=0):
+	def __init__(self,a,b,c):
 		self.a = a
 		self.b = b 
 		self.c = c
@@ -35,13 +35,11 @@ class EqFirstDeg:
 
 	# Propriété qui permet d'accéder à l'identité de l'objet instancié
 	@property
-	def equation(self):
-		return self.__str__()
-
-
+	def terms(self):
+		return (self.a,self.b,self.c)
 
 	# Fonction qui résout l'équation
-	def resolve(self):
+	def resolve(self)-> int | float:
 
 		# Stocker les valeur avec lesquelles travailler dans des variables
 		coeff_x = self.a
@@ -49,12 +47,10 @@ class EqFirstDeg:
 
 		# Diviser le contraire du terme indépendant par le coefficient du premier terme du premier membre
 		# Nous supposons ici que les termes sont ordonnés et que le premier coefficient est celui de la variable plus grande
-		result = -ind_term*10/coeff_x
+		result = -ind_term / coeff_x
 
 		# Retourner le résultat de l'opération
 		return result
-
-
 
 	# Fonction qui affiche les résultats à l'utilisateur
 	def resolution(self):
